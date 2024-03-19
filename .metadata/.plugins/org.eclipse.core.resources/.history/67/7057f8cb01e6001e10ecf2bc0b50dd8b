@@ -1,6 +1,0 @@
-package tes.proyecto;
-
-public interface Empleados {
-	
-	public String getTareas();
-}

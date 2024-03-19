@@ -1,9 +1,0 @@
-package tes.proyecto;
-
-public class JefeEmpleado implementes Empleados {
- 
-	public String getTareas() {
-		return "Gestiono las cuestiones relativas";
-	}
-
-}
