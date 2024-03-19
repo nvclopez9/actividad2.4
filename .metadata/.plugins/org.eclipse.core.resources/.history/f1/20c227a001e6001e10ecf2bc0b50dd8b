@@ -1,0 +1,5 @@
+package tes.proyecto;
+
+public interface CreacionInformes {
+
+}

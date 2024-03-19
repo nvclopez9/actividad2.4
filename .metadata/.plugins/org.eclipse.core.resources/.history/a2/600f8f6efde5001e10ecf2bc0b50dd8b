@@ -1,0 +1,11 @@
+package tes.proyecto;
+
+public class SecretarioEmpleado implements Empleados {
+
+	@Override
+	public String getTareas() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
