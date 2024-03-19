@@ -2,10 +2,15 @@ package com.app.ioc;
 
 
 public class UsuarioFactory {
-	public void getInsertUsuario() {
-		System.out.println("Insertado usuario con Oracle");
+	iUsuario usr;
+	public UsuarioFactory(iUsuario usr) {
+		this.usr = usr;
 	}
-	public void getEliminarUsuarioByID(int id) {
-		System.out.println("Eliminando usuario con Oracle: " + id);
-	}
+	public void getInsertoUsuario() {
+		usr.insertaUsuario();
+		}
+	public void getEliminoUsuarioByID(int id) {
+		usr.eliminaUsuarioByID(id);
+		}
+	
 }
